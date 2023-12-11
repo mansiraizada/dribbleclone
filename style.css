@@ -21,7 +21,7 @@ html,body{
 
 #page1{
     width: 100%;
-    height: 125%;
+    height: 130%;
     /* background-color: aqua; */
 }
 
@@ -98,9 +98,10 @@ html,body{
     font-size: 70px;
     font-weight: 100;
     text-align: center;
-    margin: 35px 0;
+    margin: 42px 0 35px 0;
     line-height: 70px;
     font-family: "Source Serif 4";
+    /* background-color: pink; */
 }
 
 #content h4{
@@ -117,7 +118,7 @@ html,body{
     color: #fff;
     background-color: #000;
     border: none;
-    margin: 38px 0px;
+    margin: 38px 0px 60px 0;
     position: relative;
     left: 50%;
     transform: translateX(-50%);     
@@ -145,7 +146,7 @@ html,body{
     overflow: hidden;
     position: relative;  
     animation-name: moving;
-    animation-duration: 15s;
+    animation-duration: 18s;
     animation-timing-function: linear;
     animation-delay: 1s;
     animation-iteration-count: infinite;
@@ -202,6 +203,7 @@ html,body{
 #page2{
     width: 100%;
     height: 100%;
+    /* background-color: pink; */
     position: relative;
     padding: 60px;
     padding-top: 100px;
@@ -209,9 +211,11 @@ html,body{
 
 #page2 h1{
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 300;
+    letter-spacing: -1;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
+    color: #000000d6;
 }
 
 .box{
@@ -256,4 +260,68 @@ html,body{
     font-size: 15px;
     border-radius: 20px;
     color: #000;
+}
+
+#footer{
+    width: 100%;
+    height: 93%;
+    padding: 130px 460px;
+    background-color: #FFDA79;
+}
+
+#footer h1{
+    font-family: "Source Serif 4";
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.8px;
+}
+
+#footer h3{
+    margin-top: 30px;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+#footer_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+
+    /* background-color: pink; */
+}
+
+#footer_button button{   
+    padding: 20px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    margin: 0 8px;
+}
+
+#designer{
+    padding: 20px;
+}
+
+#footer-bottom{
+    width: 100%;
+    height: 10%;
+    padding: 21px 0px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#logo h3{
+    font-size: 13px;
 }
